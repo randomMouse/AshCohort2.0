@@ -1,3 +1,7 @@
+@font-face {
+    font-family: pro;
+    src: url(./Speed\ Rusher.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -40,10 +44,10 @@ html,body {
     width: 100%;
     height: 800px;
     
-    background-image: url();
+    background-image: url(./iPhone17proHero.jpg);
     
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -56,10 +60,7 @@ html,body {
     font-size: 60px;
 }
 
-@font-face {
-    font-family: pro;
-    src: url(./Speed\ Rusher.ttf);
-}
+
 #ad #pro{
  font-family: pro;
  font-size: 200px;
